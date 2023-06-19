@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>メインページ</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div id="sidebar">
-        <p><a href="main_page.html">ホーム</a></p>
-        <p><a href="page_1.html">ページ1</a></p>
-        <p><a href="page_2.html">ページ2</a></p>
-        <p><a href="page_3.html">ページ3</a></p>
+        <ul>
+            <li class="list" id="selected">
+                <a href="main_page.html">
+                    <span class="icon"><ion-icon name="musical-notes-outline"></ion-icon></span>
+                    <span class="title">HOME</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="page_1.html">
+                    <span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span>
+                    <span class="title">sec1</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="page_2.html">
+                    <span class="icon"><ion-icon name="apps-outline"></ion-icon></span>
+                    <span class="title">sec2</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="page_3.html">
+                    <span class="icon"><ion-icon name="apps-outline"></ion-icon></span>
+                    <span class="title">sec3</span>
+                </a>
+            </li>
+        </ul>
     </div>
-    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
